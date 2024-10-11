@@ -1,2 +1,4 @@
-# triple-cycler-design
-Triple cycler trajectory design using machine learning. Very much a work in progress. 
+# Triple Cycler Trajectory Design using Machine Learning
+
+## Overview
+WIP.
