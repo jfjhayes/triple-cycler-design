@@ -1,4 +1,4 @@
-# Triple Cycler Trajectory Design using Machine Learning
+# Triple Cycler Trajectory Design
 
 ## Overview
 WIP.
