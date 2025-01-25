@@ -3,4 +3,6 @@ Earth-Mars-Venus triple cycler trajectory optimisation using MATLAB's Genetic Al
 
 Run by downloading the ZIP file, extracting it, and placing it in your MATLAB workspace directory. To run, you will require MATLABs parallel computing and global optimisation toolboxes and a Lambert problem solver not included in this repository. This project consists of a genetic algorithm (GA) and a constrained optimisation phase, with several helper functions and plotting tools included.
 
-It is a little clunky for swapping between outbound (Earth-Mars) and inbound (Mars-Earth) cyclers, but high-level changes can be made in defineParams.m and objectiveFunction.m. Currently, it is only configured for cyclers with a period equal to two EVM synodic periods (12.8 yrs) with four flybys. 
+It is a little clunky for swapping between outbound (Earth-Mars) and inbound (Mars-Earth) cyclers, but high-level changes can be made in defineParams.m and objectiveFunction.m. Currently, it is only configured for cyclers with a period equal to two EVM synodic periods (12.8 yrs) with four intermediate flybys. 
+
+Several helper files are taken from _Orbital Mechanics for Engineers, 3rd Edition_ by Howard D. Curtis which can be found online at https://github.com/jorgepiloto/astrodynamics.
